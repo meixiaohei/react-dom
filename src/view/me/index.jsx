@@ -1,22 +1,24 @@
 import React, {Component} from 'react';
-import {Button, WhiteSpace, WingBlank} from "antd-mobile";
-
+import Nav from '@components/nav/index';
+import PropTypes from 'prop-types';
 class Me extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
+    static contextTypes={
+        router:PropTypes.object
     };
-
+    constructor(props,context) {
+        super(props,context);
+        this.state = {
+            selectedTab: props.selectedTab,
+            hidden: false,
+            fullScreen: false,
+        };
+    };
     render() {
+        const props = this.props;
         return (
-            <div>
-                <WhiteSpace size="lg" />
-                <WingBlank>
-                    <Button type="primary">memememe</Button>
-                </WingBlank>
-                aaaaaa
-                <WhiteSpace size="lg" />
-            </div>
+            <Nav selectedTab={'yellowTab'}>
+                lalala
+            </Nav>
         );
     }
 }
