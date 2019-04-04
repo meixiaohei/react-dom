@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {BrowserRouter as RouterBox, Route, Switch} from 'react-router-dom';
 import Index from './view/home/index';
-import Me from './view/me/index';
+import My from './view/my/index';
+import Invoice from './view/invoice/index';
+import Report from './view/report/index';
 class RouterConfig extends Component {
     constructor(props) {
         super(props);
@@ -13,7 +15,9 @@ class RouterConfig extends Component {
             <RouterBox>
                 <Switch>
                     <Route path="/" exact component={Index} />
-                    <Route path="/me" component={Me} />
+                    <Route path="/my" component={My} />
+                    <Route path="/invoice" component={Invoice} />
+                    <Route path="/report" component={Report} />
                 </Switch>
             </RouterBox>
         );

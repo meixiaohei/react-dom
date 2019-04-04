@@ -5,18 +5,13 @@ class Me extends Component {
     static contextTypes={
         router:PropTypes.object
     };
-    constructor(props,context) {
-        super(props,context);
-        this.state = {
-            selectedTab: props.selectedTab,
-            hidden: false,
-            fullScreen: false,
-        };
+    constructor(props) {
+        super(props);
+        this.state = {};
     };
     render() {
-        const props = this.props;
         return (
-            <Nav selectedTab={'yellowTab'}>
+            <Nav selectedTab={'my'}>
                 lalala
             </Nav>
         );

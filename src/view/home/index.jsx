@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, WhiteSpace, WingBlank} from "antd-mobile";
+import Nav from '@components/nav/index';
 import PropTypes from 'prop-types';
 class Index extends Component {
     static contextTypes={
@@ -11,18 +11,85 @@ class Index extends Component {
         console.log(this.context); // it works
     }
     click=()=>{
-        this.context.router.history.push('/me');
+        this.context.router.history.push('/my');
         console.log(this.context);
     };
     render() {
         return (
-            <div>
-                <WhiteSpace size="lg" />
-                <WingBlank>
-                    <Button onClick={this.click} type="primary">啦啦啦</Button>
-                </WingBlank>
-                <WhiteSpace size="lg" />
-            </div>
+            <Nav selectedTab={'home'}>
+                啦啦啦阿拉2121 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉1 <br/>
+                啦啦啦阿拉132131<br/>
+            </Nav>
         );
     }
 }

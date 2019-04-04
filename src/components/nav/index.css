@@ -1,0 +1,22 @@
+.am-tab-bar{
+    height: auto;
+}
+.navBox{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+/*.am-tab-bar{*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+/*}*/
+.navContent{
+    /*margin-bottom: 50px;*/
+    flex: 1;
+    overflow-y: auto;
+}
